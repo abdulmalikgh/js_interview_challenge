@@ -11,11 +11,11 @@ let fibonacciSum = num => {
 
     return sequence[num]
 }
-let fibonocci = (num) => {
+let fibonacci = (num) => {
     if(num < 2) {
         return num;
     }
 
-    return fibonocci(num - 1 ) + fibonocci(num - 2)
+    return fibonacci(num - 1 ) + fibonacci(num - 2)
 }
-console.log(fibonocci(9))
+console.log(fibonacci(9))
