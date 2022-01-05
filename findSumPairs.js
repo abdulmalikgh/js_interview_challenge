@@ -5,7 +5,7 @@ function findSumPairs(arr, value) {
     for(let i = 0; i < arr.length; i++) {
         let targetValue = value - arr[i]
         if(sumsLookup[targetValue]) {
-            output.push(arr[i], targetValue)
+            output.push(new Array())
         }
         sumsLookup[arr[i]] = true
     }
