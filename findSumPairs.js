@@ -9,7 +9,6 @@ function findSumPairs(arr, value) {
         }
         sumsLookup[arr[i]] = true
     }
-    console.log(output)
     return output
 }
 let arr = [1,5,6,1,0,1];
