@@ -8,7 +8,6 @@ function upperCaseFirstLetter(str) {
 function titleCaseAString(str) {
     const strArray = str.split(" ")
     let capititalizeStrArray = strArray.map( word => upperCaseFirstLetter(word))
-    console.log(capititalizeStrArray.join(" "))
     return capititalizeStrArray.join("")
 }
 

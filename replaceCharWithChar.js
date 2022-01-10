@@ -9,5 +9,8 @@ function replaceCharWithChar(string, replaceThis, withThis) {
     }
     return result.join("")
 }
-
-console.log(replaceCharWithChar("hello world", 'l', 'x'))
+function simplified(string, replaceThis, withThis) {
+    let replacedArr = string.split("").map( el => el == replaceThis ? withThis : el)
+    return replacedArr.join("")
+}
+console.log(simplified("hello world", 'l', 'x'))
