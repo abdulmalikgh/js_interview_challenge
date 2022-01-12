@@ -11,6 +11,7 @@ let fibonacciSum = num => {
 
     return sequence[num]
 }
+// with recursion
 let fibonacci = (num) => {
     if(num < 2) {
         return num;
